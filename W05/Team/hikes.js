@@ -1,3 +1,56 @@
+// A comment should consist of at least the name of the hike it is for, 
+// a date, and the actual text of the comment. You will also need a comment 
+// type to use as a key for when we store these to local storage.
+
+// When the app loads we see a list of all hikes...below we should also see a list of all comments with type:hike.
+// When a hike is touched it will show us the details for that hike. We should also see any comments for that hike, 
+// and an input and button to add a new comment.
+
+// When the submit comment button is touched...
+
+// A getAllComments and renderCommentList method.
+// A comment type to use as a key.
+// A filterCommentsByName method.
+// An array to hold all of our comments.
+// A comment should look something like this:
+
+//     const newComment = {
+//       name: hikeName,
+//       date: new Date(),
+//       content: comment
+//     };
+                    
+// A method to add an event listener to the submit button.
+// An addComment method
+
+// Create a method in the class called showCommentsList. For now it can just return some 
+// static text or log something out to the console.
+
+// Insert your comment class into the hike class by adding a new instance of the comment 
+// class in the constructor. Call the showCommentsList method when the list of hikes is 
+// shown to make sure that you have things connected up correctly.
+
+// When you are looking at a specific hike it should allow you to enter a new comment, 
+// and should show all the comments below that form.
+
+// Write the rest of the code to implement your commenting system. For now just store 
+// your comments in an array.
+
+//  Store It.
+// Write the model code to store and retrieve the comments to/from local storage.
+
+// Stretch Goals
+
+// Stretch 1 Filtering comments
+// When you are looking at a hike details screen you should only see the comments for that 
+// hike. When you are looking at all hikes you should see all comments of type hike. Change 
+// your code to support this.
+
+// Stretch 2 Controlling comment entry
+// When you are looking at a hike details screen...we should be able to enter a comment, 
+// when you are looking at all hikes you should not be able to enter a new comment. Change 
+// your code to support this.
+
 // Example of using Classes and modules to organize the code needed to render our list of hikes. Not using MVC here.
 
 //create an array of hikes
