@@ -1,8 +1,6 @@
-import Hikes from "hikes.js";
+import Hikes from './hikes.js';
 //on load grab the array and insert it into the page
-const myHike = new Hikes("hikeListId");
-window.addEventListener("load", () => {
-  myHike.showHikeList();
+const myHikes = new Hikes('hikes');
+window.addEventListener('load', () => {
+  myHikes.showHikeList();
 });
-
-myHike.hikeList;
